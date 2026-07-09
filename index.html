@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manu Play UBE — Aprende Jugando</title>
+  <meta name="description" content="Plataforma gamificada de aprendizaje para Primero de Bachillerato — Universidad Bolivariana del Ecuador" />
+  <meta name="theme-color" content="#1a0a2e" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>🎮</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <div id="loading-screen">
+      <div class="loading-logo">
+        <span class="loading-icon">🎮</span>
+        <h1 class="loading-title">Manu Play <span>UBE</span></h1>
+        <p class="loading-sub">Cargando experiencia educativa...</p>
+        <div class="loading-bar"><div class="loading-fill"></div></div>
+      </div>
+    </div>
+    <div id="diploma-template" style="display: none; position: absolute; top: -9999px; left: -9999px;"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
